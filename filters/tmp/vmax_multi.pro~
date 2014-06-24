@@ -1,0 +1,60 @@
+;+
+; NAME:
+;     VMAX_MULTI
+;
+;
+; PURPOSE:
+;    Calculates VMAX for galaxy catalogues 
+;
+;
+; CATEGORY:
+;
+;
+;
+; CALLING SEQUENCE:
+;
+;
+;
+; INPUTS:
+;
+;
+;
+; OPTIONAL INPUTS:
+;
+;
+;
+; KEYWORD PARAMETERS:
+;
+;
+;
+; OUTPUTS:
+;
+;
+;
+; OPTIONAL OUTPUTS:
+;
+;
+;
+; COMMON BLOCKS:
+;
+;
+;
+; SIDE EFFECTS:
+;
+;
+;
+; RESTRICTIONS:
+;
+;
+;
+; PROCEDURE:
+;
+;
+;
+; EXAMPLE:
+;
+;
+;
+; MODIFICATION HISTORY:
+;
+;-

@@ -1,0 +1,296 @@
+     #  #poi                  Filter        wl_eff      surface    bandpass1  conv_ABLam/dLa   Zero m(1Jy)log f_nu(nJy)+0.4
+     1   190                 B_subaru      102.021      156.673      108.324     -NaN   0.94   -NaN   -NaN    NaN
+     2   186                 V_subaru       98.358      160.185      106.301     -NaN   0.93   -NaN   -NaN    NaN
+     3   190                 g_subaru      101.762      157.855      108.380     -NaN   0.94   -NaN   -NaN    NaN
+     4   189                 r_subaru       99.550      164.312      108.128     -NaN   0.92   -NaN   -NaN    NaN
+     5   218                 i_subaru      115.136      186.067      125.087     -NaN   0.92   -NaN   -NaN    NaN
+     6   185                 z_subaru       97.363      161.085      105.877     -NaN   0.92   -NaN   -NaN    NaN
+     7   737                    IB427      374.295      705.544      424.799     -NaN   0.88   -NaN   -NaN    NaN
+     8   769                    IB464      390.288      737.534      443.280   38.356   0.88  29.46 -29.46  -2.78
+     9   873                    IB484      443.530      834.502      503.281   33.939   0.88  25.04 -25.04  -1.02
+    10   929                    IB505      472.080      887.378      535.595   28.743   0.88  19.84 -19.84   1.06
+    11   992                    IB527      504.273      946.461      571.944   25.723   0.88  16.82 -16.82   2.27
+    12  1281                    IB574      652.898     1212.381      738.625   15.765   0.88   6.86  -6.86   6.25
+    13  1223                    IB624      621.962     1165.013      705.241   19.924   0.88  11.02 -11.02   4.59
+    14  1526                    IB679      777.714     1444.238      880.001   12.436   0.88   3.54  -3.54   7.59
+    15  1249                    IB738      633.784     1197.432      720.320   18.170   0.88   9.27  -9.27   5.29
+    16   650                    IB767      330.073      622.672      374.590     -NaN   0.88   -NaN   -NaN    NaN
+    17  1142                    IB827      578.086     1102.804      658.625   20.985   0.88  12.08 -12.08   4.17
+    18   769                    NB711      388.438      747.909      443.353   38.407   0.88  29.51 -29.51  -2.80
+    19   534                    NB816      268.955      524.412      307.715     -NaN   0.87   -NaN   -NaN    NaN
+    20    13     Koo-Kron U+ filter (        7.338       10.286        6.943     -NaN   1.06   -NaN   -NaN    NaN
+    21    23     Koo-Kron J+ filter (       12.880       17.754       12.606     -NaN   1.02   -NaN   -NaN    NaN
+    22    25     Koo-Kron F+ filter (       13.803       20.000       13.787     -NaN   1.00   -NaN   -NaN    NaN
+    23    28     Koo-Kron N+ filter (       15.257       23.122       15.536     -NaN   0.98   -NaN   -NaN    NaN
+    24    15     Koo-Kron R band (=12        8.254       12.639        8.108     -NaN   1.02   -NaN   -NaN    NaN
+    25    43     Couch and Newell (80       23.582       34.263       24.055     -NaN   0.98   -NaN   -NaN    NaN
+    26    23     Couch and Newell (80       12.300       20.342       12.714     -NaN   0.97   -NaN   -NaN    NaN
+    27    13     Koo-Kron U+ filter (        7.338       10.286        6.943     -NaN   1.06   -NaN   -NaN    NaN
+    28    25     Koo-Kron J+ filter (       14.052       18.911       13.826     -NaN   1.02   -NaN   -NaN    NaN
+    29    25     Koo-Kron F+ filter (       13.803       20.000       13.787     -NaN   1.00   -NaN   -NaN    NaN
+    30    23     Koo-Kron N+ filter (       12.729       17.946       12.833     -NaN   0.99   -NaN   -NaN    NaN
+    31    24         Buser's U filter       13.110       19.851       13.248     -NaN   0.99   -NaN   -NaN    NaN
+    32    40        Buser's B2 filter       21.887       32.149       22.360     -NaN   0.98   -NaN   -NaN    NaN
+    33    40        Buser's B3 filter       21.887       32.149       22.360     -NaN   0.98   -NaN   -NaN    NaN
+    34    54         Buser's V filter       29.428       43.510       30.367     -NaN   0.97   -NaN   -NaN    NaN
+    35    13     Matthews and Sandage        7.338       10.286        6.943     -NaN   1.06   -NaN   -NaN    NaN
+    36    22     Matthews and Sandage       12.311       17.062       12.043     -NaN   1.02   -NaN   -NaN    NaN
+    37    25     Matthews and Sandage       13.803       20.000       13.787     -NaN   1.00   -NaN   -NaN    NaN
+    38    43     Sandage and Smith B        23.762       33.562       24.005     -NaN   0.99   -NaN   -NaN    NaN
+    39    38     Sandage and Smith V        20.678       31.074       21.247     -NaN   0.97   -NaN   -NaN    NaN
+    40    43     Sandage and Smith R        23.182       35.939       24.147     -NaN   0.96   -NaN   -NaN    NaN
+    41    33           ST-UV14 filter       18.516       24.928       18.243     -NaN   1.01   -NaN   -NaN    NaN
+    42    42           ST-UV17 filter       23.501       31.723       23.345     -NaN   1.01   -NaN   -NaN    NaN
+    43    53           ST-UV22 filter       29.551       40.182       29.597     -NaN   1.00   -NaN   -NaN    NaN
+    44    64           ST-UV27 filter       35.489       49.044       35.888     -NaN   0.99   -NaN   -NaN    NaN
+    45    33           OAO-UV1 filter       18.069       26.667       18.369     -NaN   0.98   -NaN   -NaN    NaN
+    46    47           OAO-UV2 filter       25.730       37.536       26.344     -NaN   0.98   -NaN   -NaN    NaN
+    47    59           OAO-UV3 filter       32.299       46.861       33.179     -NaN   0.97   -NaN   -NaN    NaN
+    48    68           OAO-UV4 filter       36.987       54.802       38.370     -NaN   0.96   -NaN   -NaN    NaN
+    49    58           OAO-UV5 filter       31.108       48.754       32.762     -NaN   0.95   -NaN   -NaN    NaN
+    50    70           OAO-UV6 filter       37.342       59.478       39.675     -NaN   0.94   -NaN   -NaN    NaN
+    51    23       Johnson's R filter       13.095       16.958       12.538     -NaN   1.04   -NaN   -NaN    NaN
+    52    26       Johnson's I filter       14.629       19.383       14.286     -NaN   1.02   -NaN   -NaN    NaN
+    53    31       Johnson's J filter       17.193       24.231       17.175     -NaN   1.00   -NaN   -NaN    NaN
+    54    17       Johnson's K filter        9.489       13.538        9.222     -NaN   1.03   -NaN   -NaN    NaN
+    55    14       Johnson's L filter        7.901       10.988        7.507     -NaN   1.05   -NaN   -NaN    NaN
+    56    51       Butcher's r filter       27.438       42.647       28.736     -NaN   0.95   -NaN   -NaN    NaN
+    57    36       Butcher's i filter       19.170       31.397       20.179     -NaN   0.95   -NaN   -NaN    NaN
+    58    31     Butcher-Oemler R fil       17.030       24.886       17.217     -NaN   0.99   -NaN   -NaN    NaN
+    59    31     Butcher-Oemler R fil       17.030       24.886       17.217     -NaN   0.99   -NaN   -NaN    NaN
+    60    23          Bassel u filter       12.570       19.049       12.677     -NaN   0.99   -NaN   -NaN    NaN
+    61    46          Bassel g filter       25.409       35.878       25.712     -NaN   0.99   -NaN   -NaN    NaN
+    62    22          Bassel r filter       11.790       19.402       12.138     -NaN   0.97   -NaN   -NaN    NaN
+    63    33     UKIRT H FILTER (Leid       23.276       38.476       25.414     -NaN   0.92   -NaN   -NaN    NaN
+    64    53     R. S. Ellis U(PE) fi       28.253       45.437       29.929     -NaN   0.94   -NaN   -NaN    NaN
+    65   105     R. S. Ellis J filter       56.971       84.616       59.522     -NaN   0.96   -NaN   -NaN    NaN
+    66    57     R. S. Ellis R filter       29.785       51.657       32.304     -NaN   0.92   -NaN   -NaN    NaN
+    67   111     R. S. Ellis N filter       58.521       96.703       63.313     -NaN   0.92   -NaN   -NaN    NaN
+    68   189     C. MacKay and P. Hal      106.157      138.637      106.226     -NaN   1.00   -NaN   -NaN    NaN
+    69   126     C. MacKay and P. Hal       67.428      105.171       71.744     -NaN   0.94   -NaN   -NaN    NaN
+    70    29     Gunn g filter + four       16.260       22.061       15.989     -NaN   1.02   -NaN   -NaN    NaN
+    71    47     Gunn r filter + four       25.261       39.509       26.451     -NaN   0.96   -NaN   -NaN    NaN
+    72    75     Gunn i filter + four       40.609       61.085       42.412     -NaN   0.96   -NaN   -NaN    NaN
+    73    81     Gunn z filter + four       43.964       65.455       45.813     -NaN   0.96   -NaN   -NaN    NaN
+    74    21     IR J filter + Paloma       11.540       17.222       11.525     -NaN   1.00   -NaN   -NaN    NaN
+    75    27     IR H filter + Paloma       14.706       22.366       14.967     -NaN   0.98   -NaN   -NaN    NaN
+    76    33     IR K filter + Paloma       17.770       27.969       18.429     -NaN   0.96   -NaN   -NaN    NaN
+    77    33     IR K filter + Paloma       17.770       27.969       18.429     -NaN   0.96   -NaN   -NaN    NaN
+    78    33     IR K filter + Paloma       17.770       27.969       18.429     -NaN   0.96   -NaN   -NaN    NaN
+    79    33     IR K filter + Paloma       17.770       27.969       18.429     -NaN   0.96   -NaN   -NaN    NaN
+    80    40        A. Tyson J filter       21.918       32.023       22.352     -NaN   0.98   -NaN   -NaN    NaN
+    81    41        A. Tyson R filter       22.011       34.737       23.020     -NaN   0.96   -NaN   -NaN    NaN
+    82    65        A. Tyson I filter       34.897       54.340       36.764     -NaN   0.95   -NaN   -NaN    NaN
+    83     4     ANS 1550 Wide Filter        2.541        2.860        1.913     -NaN   1.33   -NaN   -NaN    NaN
+    84    18     ANS 1800 Filter (J.         9.632       16.311        9.845     -NaN   0.98   -NaN   -NaN    NaN
+    85     4     ANS 2200 Filter (J.         2.538        2.868        1.913     -NaN   1.33   -NaN   -NaN    NaN
+    86     4     ANS 2500 Filter (J.         2.525        2.911        1.914     -NaN   1.32   -NaN   -NaN    NaN
+    87    23     ANS 3300 Filter (J.        12.061       21.665       12.727     -NaN   0.95   -NaN   -NaN    NaN
+    88    13     Approximate U band f        7.089       11.493        6.974     -NaN   1.02   -NaN   -NaN    NaN
+    89    61     Approximate I band f       31.880       55.148       34.606     -NaN   0.92   -NaN   -NaN    NaN
+    90    35     IRAS  12 micron, Neu       20.170       23.584       19.350     -NaN   1.04   -NaN   -NaN    NaN
+    91    28     IRAS  25 micron, Neu       15.935       19.941       15.452     -NaN   1.03   -NaN   -NaN    NaN
+    92    46     IRAS  60 micron, Neu       27.344       27.788       25.361     -NaN   1.08   -NaN   -NaN    NaN
+    93    32     IRAS 100 micron, Neu       18.386       21.953       17.678     -NaN   1.04   -NaN   -NaN    NaN
+    94    20     H filter Bessell and       10.867       17.038       10.976     -NaN   0.99   -NaN   -NaN    NaN
+    95    21     J filter Bessell and       11.540       17.222       11.525     -NaN   1.00   -NaN   -NaN    NaN
+    96    25     K filter Bessell and       13.463       21.141       13.870     -NaN   0.97   -NaN   -NaN    NaN
+    97    21     L (3.5 microns) filt       11.390       17.917       11.550     -NaN   0.99   -NaN   -NaN    NaN
+    98    20     L' (3.8 microns) fil       10.817       17.281       10.982     -NaN   0.98   -NaN   -NaN    NaN
+    99    19     M filter Bessell and       10.192       16.898       10.408     -NaN   0.98   -NaN   -NaN    NaN
+   100   200     KPNO narrow band IR       105.640      172.301      114.435     -NaN   0.92   -NaN   -NaN    NaN
+   101   200     KPNO narrow band IR       107.213      165.505      114.109     -NaN   0.94   -NaN   -NaN    NaN
+   102    17        g Gunn (original)        9.413       13.867        9.237     -NaN   1.02   -NaN   -NaN    NaN
+   103    22        r Gunn (original)       12.024       18.278       12.107     -NaN   0.99   -NaN   -NaN    NaN
+   104    27        i Gunn (original)       14.681       22.479       14.972     -NaN   0.98   -NaN   -NaN    NaN
+   105    22             z (original)       11.912       18.795       12.124     -NaN   0.98   -NaN   -NaN    NaN
+   106    22                 z + RCA        11.912       18.795       12.124     -NaN   0.98   -NaN   -NaN    NaN
+   107    15     CCD RCA ESO (JPP ref        9.218        9.160        7.794     -NaN   1.18   -NaN   -NaN    NaN
+   108     8     CCD RCA CAHA (Manual        5.131        4.575        3.947     -NaN   1.30   -NaN   -NaN    NaN
+   109    16     B CAHA  (original ma        9.192       10.392        8.750     -NaN   1.05   -NaN   -NaN    NaN
+   110    24                B Bessell       13.457       18.431       13.159     -NaN   1.02   -NaN   -NaN    NaN
+   111    18     V Bessell                  10.069       13.866        9.865     -NaN   1.02   -NaN   -NaN    NaN
+   112    22     R Bessell                  12.513       16.189       12.027     -NaN   1.04   -NaN   -NaN    NaN
+   113    12                I Bessell        6.759        9.656        6.382     -NaN   1.06   -NaN   -NaN    NaN
+   114   110      K Prime CFHT Redeye       60.994       83.328       61.411     -NaN   0.99   -NaN   -NaN    NaN
+   115    24     CCD RCA2 CFHT (Manue       14.307       13.165       13.158     -NaN   1.09   -NaN   -NaN    NaN
+   116    22     Bj TYSON (orig. filt       12.349       16.917       12.033     -NaN   1.03   -NaN   -NaN    NaN
+   117    17     CCD TEK#25  (ESO, Ma       10.583        9.840        8.855     -NaN   1.20   -NaN   -NaN    NaN
+   118    17     CCD LORAL#34  (ESO,        10.583        9.840        8.855     -NaN   1.20   -NaN   -NaN    NaN
+   119    15     CCD SAIC#1    (CFH,         8.929       10.222        7.867     -NaN   1.14   -NaN   -NaN    NaN
+   120     8     CCD Lick2 CFHT   (CF        5.154        4.550        3.910     -NaN   1.32   -NaN   -NaN    NaN
+   121   200     B Bessel#639 ESO NTT      111.152      125.896      115.332     -NaN   0.96   -NaN   -NaN    NaN
+   122   200     V Bessel#641 ESO NTT      110.676      142.412      115.654     -NaN   0.96   -NaN   -NaN    NaN
+   123   200     R Bessel#642 ESO NTT      108.944      154.044      115.636     -NaN   0.94   -NaN   -NaN    NaN
+   124   200     V#606 ESO NTT EMMI        106.186      146.226      115.978     -NaN   0.92   -NaN   -NaN    NaN
+   125    23             B#4402  CFHT       12.476       19.479       12.692     -NaN   0.98   -NaN   -NaN    NaN
+   126    18             R#4609  CFHT        9.876       15.021        9.820     -NaN   1.01   -NaN   -NaN    NaN
+   127   148     B #1412  CFHT   FOCA       78.089      129.831       84.015     -NaN   0.93   -NaN   -NaN    NaN
+   128    24     B #1414  CFHT  B Tys       13.791       16.409       13.125     -NaN   1.05   -NaN   -NaN    NaN
+   129   113         V #1504  CFHT          59.347       97.901       64.270     -NaN   0.92   -NaN   -NaN    NaN
+   130   165     V #1510  CFHT  FOCAM       85.809      146.415       94.588     -NaN   0.91   -NaN   -NaN    NaN
+   131    29            R #1611  CFHT       15.521       24.930       16.153     -NaN   0.96   -NaN   -NaN    NaN
+   132    65     I #1808  CFHT   FOCA       34.650       56.323       36.522     -NaN   0.95   -NaN   -NaN    NaN
+   133    65     I #1809  CFHT  FOCAM       34.673       55.790       36.583     -NaN   0.95   -NaN   -NaN    NaN
+   134    17     Thomson THX 31156  C       10.583        9.840        8.855     -NaN   1.20   -NaN   -NaN    NaN
+   135    17     Thomson THX 31156  C       10.583        9.840        8.855     -NaN   1.20   -NaN   -NaN    NaN
+   136    30        R#585 Bessel  ESO       16.526       23.934       16.637     -NaN   0.99   -NaN   -NaN    NaN
+   137    36             K #6  UKIRT        19.409       30.288       20.142     -NaN   0.96   -NaN   -NaN    NaN
+   138    41               Passe-tout       30.447       16.151       15.236     -NaN   2.00   -NaN   -NaN    NaN
+   139    28     F555W + WFPC2 normal       15.538       22.136       15.450     -NaN   1.01   -NaN   -NaN    NaN
+   140   142     F814W + WFPC2 normal       76.343      116.907       80.832     -NaN   0.94   -NaN   -NaN    NaN
+   141   156     F300W + WFPC2 normal       94.820       94.994       83.329     -NaN   1.14   -NaN   -NaN    NaN
+   142   154     F450W + WFPC2 normal       86.501      113.086       86.485     -NaN   1.00   -NaN   -NaN    NaN
+   143   145     F606W + WFPC2 normal       79.975      111.576       81.964     -NaN   0.98   -NaN   -NaN    NaN
+   144    28     F702W + WFPC2 normal       15.352       22.712       15.517     -NaN   0.99   -NaN   -NaN    NaN
+   145    18     F675W + WFPC2 normal        9.853       15.086        9.831     -NaN   1.00   -NaN   -NaN    NaN
+   146    17     F336W + WFPC2 normal        9.316       14.316        9.252     -NaN   1.01   -NaN   -NaN    NaN
+   147    16     F160W + NICMOS norma        8.875       13.042        8.667     -NaN   1.02   -NaN   -NaN    NaN
+   148   111             J SOFI - NTT       59.112       90.661       63.574     -NaN   0.93   -NaN   -NaN    NaN
+   149    69             H SOFI - NTT       36.238       61.137       39.128     -NaN   0.93   -NaN   -NaN    NaN
+   150   115            Ks SOFI - NTT       59.381       99.520       66.253     -NaN   0.90   -NaN   -NaN    NaN
+   151    23     KPNO IRIM 2.12 Filte       12.038       21.774       12.728     -NaN   0.95   -NaN   -NaN    NaN
+   152    26     KPNO IRIM 2.14 Filte       13.549       24.711       14.457     -NaN   0.94   -NaN   -NaN    NaN
+   153    29     KPNO IRIM 2.16 Filte       15.061       27.641       16.186     -NaN   0.93   -NaN   -NaN    NaN
+   154    43       KPNO IRIM H Filter       22.892       37.258       24.197     -NaN   0.95   -NaN   -NaN    NaN
+   155    38       KPNO IRIM J Filter       20.418       32.213       21.299     -NaN   0.96   -NaN   -NaN    NaN
+   156    62       KPNO IRIM K Filter       32.907       53.588       35.115     -NaN   0.94   -NaN   -NaN    NaN
+   157    46      KPNO IRIM K' Filter       24.277       40.781       25.947     -NaN   0.94   -NaN   -NaN    NaN
+   158    19     VLT Test Camera Dete       11.981        9.991        9.856     -NaN   1.22   -NaN   -NaN    NaN
+   159    21     B-band filter of the       11.728       16.429       11.484     -NaN   1.02   -NaN   -NaN    NaN
+   160    24     V-band filter of the       13.256       19.221       13.218     -NaN   1.00   -NaN   -NaN    NaN
+   161    24     R-band filter of the       13.281       17.194       13.333     -NaN   1.00   -NaN   -NaN    NaN
+   162    23     I-band filter of the       12.500       19.370       12.689     -NaN   0.99   -NaN   -NaN    NaN
+   163     8     SUSI2's CCDs Quantum        5.131        4.575        3.947     -NaN   1.30   -NaN   -NaN    NaN
+   164   200       SUSI Bessel U #810      107.510       60.876      116.788     -NaN   0.92   -NaN   -NaN    NaN
+   165   196       SUSI Bessel B #811      107.800       73.210      113.332     -NaN   0.95   -NaN   -NaN    NaN
+   166   200       SUSI Bessel V #812      108.582       98.752      114.579     -NaN   0.95   -NaN   -NaN    NaN
+   167   200       SUSI Bessel R #813      110.667      125.737      113.809     -NaN   0.97   -NaN   -NaN    NaN
+   168   200       SUSI Bessel I #814      109.807      146.262      115.587     -NaN   0.95   -NaN   -NaN    NaN
+   169    79     FORS Standard U (inc       47.152       50.336       42.701     -NaN   1.10   -NaN   -NaN    NaN
+   170    77     FORS Standard B (inc       46.022       48.636       41.696     -NaN   1.10   -NaN   -NaN    NaN
+   171    79     FORS Standard V (inc       47.153       50.345       42.698     -NaN   1.10   -NaN   -NaN    NaN
+   172    79     FORS Cousins R (incl       47.152       50.336       42.701     -NaN   1.10   -NaN   -NaN    NaN
+   173    79     FORS Cousins I (incl       47.152       50.336       42.701     -NaN   1.10   -NaN   -NaN    NaN
+   174    79     FORS Gunn G (includi       47.152       50.336       42.701     -NaN   1.10   -NaN   -NaN    NaN
+   175   101       U#841 + CCD#57 WFI       53.432       30.609       58.159     -NaN   0.92   -NaN   -NaN    NaN
+   176   101     B#842 + CCD#57 WFI         58.577       68.750       55.717     -NaN   1.05   -NaN   -NaN    NaN
+   177   126     V#843 + CCD#57 WFI         70.636       93.112       70.748     -NaN   1.00   -NaN   -NaN    NaN
+   178   162     Rc#844 + CCD#57 WFI        96.875      102.355       87.723     -NaN   1.10   -NaN   -NaN    NaN
+   179   159     Ic#845 + CCD#57 WFI        94.724      101.341       86.341     -NaN   1.10   -NaN   -NaN    NaN
+   180   179       Z#846 + CCD#57 WFI       92.342      153.596      102.657     -NaN   0.90   -NaN   -NaN    NaN
+   181   172     Z EMMI NTT                 90.511      149.903       98.404     -NaN   0.92   -NaN   -NaN    NaN
+   182    75     Filtre UV FOCA (Ref.       41.905       49.171       43.321     -NaN   0.97   -NaN   -NaN    NaN
+   183    54     SDSS u + CCD, [MT]         28.827       46.081       30.495     -NaN   0.95   -NaN   -NaN    NaN
+   184   105     SDSS g + CCD, [MT]         56.725       85.605       59.586     -NaN   0.95   -NaN   -NaN    NaN
+   185   102     SDSS r + CCD, [MT]         54.178       87.140       58.072     -NaN   0.93   -NaN   -NaN    NaN
+   186   116     SDSS i + CCD, [MT]         61.359      100.073       66.154     -NaN   0.93   -NaN   -NaN    NaN
+   187   134     SDSS z + CCD, [MT]         70.708      116.185       76.523     -NaN   0.92   -NaN   -NaN    NaN
+   188     8     V Hall et al. 96 (qs        4.712        5.985        4.114     -NaN   1.15   -NaN   -NaN    NaN
+   189     9     I75 Hall et al. 96          5.106        7.463        4.668     -NaN   1.09   -NaN   -NaN    NaN
+   190    10     I86 Hall  et al. 96         5.626        8.251        5.256     -NaN   1.07   -NaN   -NaN    NaN
+   191     4     Megacam u* filter (R        2.552        2.822        1.912     -NaN   1.33   -NaN   -NaN    NaN
+   192     4     Megacam b* filter (R        2.550        2.827        1.912     -NaN   1.33   -NaN   -NaN    NaN
+   193    12     CFH 12k   Mould B 74        6.775        9.663        6.379     -NaN   1.06   -NaN   -NaN    NaN
+   194    13     CFH 12k   Mould V 75        7.249       10.807        6.941     -NaN   1.04   -NaN   -NaN    NaN
+   195    12     CFH 12k   Mould R 76        6.729        9.858        6.381     -NaN   1.05   -NaN   -NaN    NaN
+   196    19     CFH 12k   Mould I 78       10.400       15.867       10.388     -NaN   1.00   -NaN   -NaN    NaN
+   197    12     CFH 12k   Z prime 79        7.046        8.537        6.344     -NaN   1.11   -NaN   -NaN    NaN
+   198    12     CFH 12k   High Sensi        7.462        7.262        6.157     -NaN   1.21   -NaN   -NaN    NaN
+   199    12     CFH 12k  Standard  S        7.462        7.262        6.157     -NaN   1.21   -NaN   -NaN    NaN
+   200    60     U CTIO+ CTIO atmosph       32.117       50.672       33.920     -NaN   0.95   -NaN   -NaN    NaN
+   201    61     Infamous UH8K B filt       32.396       52.653       34.538     -NaN   0.94   -NaN   -NaN    NaN
+   202    64     UH8K V filter + lora       33.728       56.407       36.299     -NaN   0.93   -NaN   -NaN    NaN
+   203   126     UH8K I filter + MK a       66.657      108.553       71.897     -NaN   0.93   -NaN   -NaN    NaN
+   204    20     KPNO B, from AAT Use       11.155       16.137       10.883     -NaN   1.02   -NaN   -NaN    NaN
+   205   150               H+K filter       81.888      121.740       84.608     -NaN   0.97   -NaN   -NaN    NaN
+   206    13     U Wyin filter (filte        7.338       10.286        6.943     -NaN   1.06   -NaN   -NaN    NaN
+   207    24     B Wyin filter (filte       13.452       18.440       13.167     -NaN   1.02   -NaN   -NaN    NaN
+   208   169     J ISAAC (ESO web pag       89.666      144.007       96.548     -NaN   0.93   -NaN   -NaN    NaN
+   209   167     H ISAAC (ESO web pag       91.900      129.423       94.423     -NaN   0.97   -NaN   -NaN    NaN
+   210   173     Ks ISAAC (ESO web pa       97.085      129.026       96.662     -NaN   1.00   -NaN   -NaN    NaN
+   211   132     L ISAAC (ESO web pag       75.212       96.176       73.004     -NaN   1.03   -NaN   -NaN    NaN
+   212   131     M ISAAC (ESO web pag       75.665       92.964       72.412     -NaN   1.04   -NaN   -NaN    NaN
+   213    34     IRAS  12 micron, Neu       19.639       22.884       18.777     -NaN   1.05   -NaN   -NaN    NaN
+   214    28     IRAS  25 micron, Neu       15.935       19.941       15.452     -NaN   1.03   -NaN   -NaN    NaN
+   215    46     IRAS  60 micron, Neu       27.344       27.788       25.361     -NaN   1.08   -NaN   -NaN    NaN
+   216    32     IRAS 100 micron, Neu       18.386       21.953       17.678     -NaN   1.04   -NaN   -NaN    NaN
+   217   200               IRAC [3.8]      106.764      167.394      114.211     -NaN   0.93   -NaN   -NaN    NaN
+   218   200               IRAC [4.5]      107.204      165.532      114.111     -NaN   0.94   -NaN   -NaN    NaN
+   219   200               IRAC [5.8]      107.988      162.350      113.915     -NaN   0.95   -NaN   -NaN    NaN
+   220   200               IRAC [8.0]      110.209      153.945      113.243     -NaN   0.97   -NaN   -NaN    NaN
+   221   128                MIPS [24]       70.621       93.632       73.123     -NaN   0.97   -NaN   -NaN    NaN
+   222   111                MIPS [70]       63.222       72.516       63.127     -NaN   1.00   -NaN   -NaN    NaN
+   223   340               MIPS [100]      187.733      245.534      195.114     -NaN   0.96   -NaN   -NaN    NaN
+   224    50              ISO CAM LW1       26.848       42.061       28.173     -NaN   0.95   -NaN   -NaN    NaN
+   225    49              ISO CAM LW2       27.785       35.613       27.160     -NaN   1.02   -NaN   -NaN    NaN
+   226    75              ISO CAM LW3       41.238       58.618       42.238     -NaN   0.98   -NaN   -NaN    NaN
+   227   100              ISO CAM LW4       53.237       84.918       56.901     -NaN   0.94   -NaN   -NaN    NaN
+   228    98              ISO CAM LW5       52.308       89.225       57.050     -NaN   0.92   -NaN   -NaN    NaN
+   229    79              ISO CAM LW6       42.561       65.165       44.748     -NaN   0.95   -NaN   -NaN    NaN
+   230   100              ISO CAM LW7       53.448       83.994       56.859     -NaN   0.94   -NaN   -NaN    NaN
+   231    50              ISO CAM LW8       26.396       44.159       28.245     -NaN   0.93   -NaN   -NaN    NaN
+   232    39              ISO CAM LW9       20.814       33.677       21.894     -NaN   0.95   -NaN   -NaN    NaN
+   233    91             ISO CAM LW10       51.820       64.845       50.647     -NaN   1.02   -NaN   -NaN    NaN
+   234   300           ISO PHOT C_100      174.334      202.265      165.918     -NaN   1.05   -NaN   -NaN    NaN
+   235   300           ISO PHOT C_105      170.000      214.906      168.166     -NaN   1.01   -NaN   -NaN    NaN
+   236   300           ISO PHOT C_120      171.264      211.059      167.560     -NaN   1.02   -NaN   -NaN    NaN
+   237   300           ISO PHOT C_135      177.263      194.530      164.122     -NaN   1.08   -NaN   -NaN    NaN
+   238   300           ISO PHOT C_160      174.558      201.651      165.789     -NaN   1.05   -NaN   -NaN    NaN
+   239   300           ISO PHOT C_180      169.688      215.880      168.310     -NaN   1.01   -NaN   -NaN    NaN
+   240   300           ISO PHOT C_200      172.572      207.222      166.890     -NaN   1.03   -NaN   -NaN    NaN
+   241   300            ISO PHOT C_50      176.883      195.500      164.368     -NaN   1.08   -NaN   -NaN    NaN
+   242   300            ISO PHOT C_60      171.264      211.059      167.560     -NaN   1.02   -NaN   -NaN    NaN
+   243   300            ISO PHOT C_70      178.186      192.214      163.508     -NaN   1.09   -NaN   -NaN    NaN
+   244   300          ISO PHOT C_90BU      176.604      196.219      164.546     -NaN   1.07   -NaN   -NaN    NaN
+   245   300            ISO PHOT C_90      176.604      196.219      164.546     -NaN   1.07   -NaN   -NaN    NaN
+   246   300          ISO PHOT C_FREE      187.876      170.857      155.606     -NaN   1.21   -NaN   -NaN    NaN
+   247   300           ISO PHOT P_100      171.541      210.234      167.422     -NaN   1.02   -NaN   -NaN    NaN
+   248   300            ISO PHOT P_10      165.450      230.000      170.020     -NaN   0.97   -NaN   -NaN    NaN
+   249   300          ISO PHOT P_11_3      160.467      249.167      171.475     -NaN   0.94   -NaN   -NaN    NaN
+   250   300          ISO PHOT P_11_5      174.334      202.265      165.918     -NaN   1.05   -NaN   -NaN    NaN
+   251   300          ISO PHOT P_12_8      158.962      255.597      171.798     -NaN   0.93   -NaN   -NaN    NaN
+   252   300            ISO PHOT P_16      160.145      250.514      171.548     -NaN   0.93   -NaN   -NaN    NaN
+   253   300            ISO PHOT P_20      165.450      230.000      170.020     -NaN   0.97   -NaN   -NaN    NaN
+   254   300            ISO PHOT P_25      165.157      231.045      170.122     -NaN   0.97   -NaN   -NaN    NaN
+   255   300          ISO PHOT P_3_29      158.442      257.898      171.897     -NaN   0.92   -NaN   -NaN    NaN
+   256   300           ISO PHOT P_3_6      164.343      234.000      170.395     -NaN   0.96   -NaN   -NaN    NaN
+   257   300          ISO PHOT P_4_85      170.434      213.571      167.963     -NaN   1.01   -NaN   -NaN    NaN
+   258   300            ISO PHOT P_60      168.907      218.349      168.658     -NaN   1.00   -NaN   -NaN    NaN
+   259   300           ISO PHOT P_7_3      173.756      203.864      166.246     -NaN   1.05   -NaN   -NaN    NaN
+   260   300           ISO PHOT P_7_7      156.706      265.890      172.183     -NaN   0.91   -NaN   -NaN    NaN
+   261   301      INT WFC Harris B         167.667      225.000      169.969     -NaN   0.99   -NaN   -NaN    NaN
+   262   251      INT WFC Harris V         135.058      205.357      143.198     -NaN   0.94   -NaN   -NaN    NaN
+   263   401      INT WFC Harris R         220.048      311.111      227.778     -NaN   0.97   -NaN   -NaN    NaN
+   264   251      INT WFC RGO I            132.721      215.278      143.713     -NaN   0.92   -NaN   -NaN    NaN
+   265   101      INT WFC RGO Z             51.981       94.444       57.707     -NaN   0.90   -NaN   -NaN    NaN
+   266   301      INT WFC [OIII]           154.000      283.019      173.103     -NaN   0.89   -NaN   -NaN    NaN
+   267   251      INT WFC Halpha           127.590      240.809      144.305     -NaN   0.88   -NaN   -NaN    NaN
+   268   201      INT WFC Stromgren U      105.762      175.000      115.079     -NaN   0.92   -NaN   -NaN    NaN
+   269   151      INT WFC Stromgren V       78.273      137.500       86.487     -NaN   0.91   -NaN   -NaN    NaN
+   270   151      INT WFC Stromgren B       78.027      138.750       86.511     -NaN   0.90   -NaN   -NaN    NaN
+   271   201      INT WFC Stromgren Y      104.030      183.333      115.314     -NaN   0.90   -NaN   -NaN    NaN
+   272   401      INT WFC RGO U            220.048      311.111      227.778     -NaN   0.97   -NaN   -NaN    NaN
+   273   201      INT WFC HeII             102.419      191.837      115.438     -NaN   0.89   -NaN   -NaN    NaN
+   274   276      INT WFC OII              141.884      256.094      158.629     -NaN   0.89   -NaN   -NaN    NaN
+   275   126      INT WFC Ha                63.819      123.117       72.171     -NaN   0.88   -NaN   -NaN    NaN
+   276   321      INT WFC Kitt Peak B      170.697      270.769      183.733     -NaN   0.93   -NaN   -NaN    NaN
+   277   126      INT WFC OIII              64.018      121.966       72.166     -NaN   0.89   -NaN   -NaN    NaN
+   278   226      INT WFC SII              114.755      217.716      129.882     -NaN   0.88   -NaN   -NaN    NaN
+   279   500      INT WFC SDSS r'          267.094      416.000      286.181     -NaN   0.93   -NaN   -NaN    NaN
+   280   499      INT WFC SDSS i'          263.325      429.110      286.284     -NaN   0.92   -NaN   -NaN    NaN
+   281   401      INT WFC SDSS g'          214.889      331.034      229.265     -NaN   0.94   -NaN   -NaN    NaN
+   282    14                GAlex FUV        7.938       10.833        7.499     -NaN   1.06   -NaN   -NaN    NaN
+   283    29                GAlex FUV       16.337       21.778       15.964     -NaN   1.02   -NaN   -NaN    NaN
+   284  2501         UKIRT NSF CAM J      1334.334     2083.333     1433.721   10.426   0.93   1.53  -1.53   8.39
+   285  1401         UKIRT NSF CAM H       750.495     1155.000      802.206   12.979   0.94   4.08  -4.08   7.37
+   286  1401         UKIRT NSF CAM K       738.985     1204.000      804.713   13.086   0.92   4.19  -4.19   7.33
+   287  1401     UKIRT NSF CAM K prim      738.985     1203.994      804.713   13.086   0.92   4.19  -4.19   7.33
+   288  2020     UKIRT NSF CAM L prim     1078.344     1635.439     1164.352   10.857   0.93   1.96  -1.96   8.22
+   289  1001     UKIRT NSF CAM M prim      528.334      844.557      576.839   25.223   0.92  16.32 -16.32   2.47
+   290   533                  PACS 70      314.649      292.662      304.147     -NaN   1.03   -NaN   -NaN    NaN
+   291   533          PACS 100 micron      314.649      292.662      304.147     -NaN   1.03   -NaN   -NaN    NaN
+   292   344          PACS 160 micron      205.368      180.294      195.707     -NaN   1.05   -NaN   -NaN    NaN
+   293   512         SPIRE 250 MICRON      329.007      183.119      287.600     -NaN   1.14   -NaN   -NaN    NaN
+   294   511         SPIRE 350 MICRON      328.341      182.929      286.995     -NaN   1.14   -NaN   -NaN    NaN
+   295   512         SPIRE 500 MICRON      329.007      183.119      287.600     -NaN   1.14   -NaN   -NaN    NaN

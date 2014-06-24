@@ -1,0 +1,33 @@
+Filters used for INT WAS in ELAIS N1 are:
+
+ING U
+SDSS g
+SDSS r
+SDSS i
+Gunn Z
+
+
+f191 Harris B 
+ 191   4    4298/1065     WFCHARB   Harris B   139  3.95      wfc filter 20000624ok         WFC 0.0mm
+ 192   4    5425/975      WFCHARV   Harris V   139  3.98      wfc filter 20010210ok         WFC 0.0mm
+ 193   4    6380/1520     WFCHARR   Harris R   139  3.96      wfc filter 20010210ok         WFC 0.0mm
+ 194   4    8063*         WFCRGOI   RGO I      139  4.07      wfc filter 20000623damaged in WFC 0.0mm
+ 195   4    8763*         WFCRGOZ   RGO Z      139  4.09      wfc filter 18aug01 OK         WFC 0.0mm
+ 196   4    5008/100      WFCO5008  [OIII]     139  9.96      wfc filter 20010210           WFC 1.3mm
+ 197   4    6568/95       WFCH6568  Halpha     139  10.05     wfc filter 18aug01 ok         WFC 0.9mm
+ 198   4    3480/330      WFCStrU   Stromgren U139  8.65      wfc filter 20000204none       WFC 1.70mm
+ 199   4    4110/150      WFCStrV   Stromgren V139  9         wfc filter 20000204           WFC 1.55mm
+ 200   4    4695/210      WFCStrB   Stromgren B139  8.9       wfc filter 20000204good       WFC 1.55mm
+ 201   4    5505/240      WFCStrY   Stromgren Y139  9         wfc filter 20010210ok         WFC 1.55mm
+ 204   4    3581/638      WFCRGOU   RGO U      139  8.59      wfc filter 20000803bubble in
+ 206   4    4686/100      WFCHe4686 HeII       139  4.81      wfc filter 20000204
+ 207   4    3727/100      WFCO3727  OII        139  6.94      wfc filter 20000204
+ 208   4    9190/50       WFC9190   Ha         139  10.07     Restricted 13Aug98            Alfonso
+ 209   4    8160/50       WFC8160   Ha         139  10.05     Restricted 13Aug98            Alfonso
+ 210   4    4407/1022     WFCKPB    Kitt Peak B139            wfc filter 20000624
+ 211   4    5027/60       WFCO5027  OIII       139  10.6      Restricted 13Aug98            Contact Nial
+ 212   4    6725/80       WFCS6725  SII        139  10.60     wfc filter 20010210but
+ 214   4    6240/1347     WFCSloanR SDSS r'    139            wfc filter 20000803good
+ 215   4    7743/1519     WFCSloanI SDSS i'    139            wfc filter 20000803good
+ 220   4    4846/1285     WFCSloanG SDSS g'    139            wfc filter 20000803
+

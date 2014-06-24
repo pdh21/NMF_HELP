@@ -1,0 +1,15 @@
+
+;----------------------------------------------------------------------
+; reading in filter
+;----------------------------------------------------------------------
+
+dir = '~/idl/filters/data/'
+file_stem = 'filter_seb'
+filt_file = dir+file_stem+'.res'
+
+
+FILT_read, file_stem, dir=dir, 167, npoint, name, filt_lam, filt_trans, /silent
+
+get_lun, unit
+openw, unit, 'filter_167.txt'
+

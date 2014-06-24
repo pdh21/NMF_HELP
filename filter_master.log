@@ -1,0 +1,298 @@
+    #   Filter                                                      # points
+--------------------------------------------------------------------------------
+     1   B_subaru                                                      190
+     2   V_subaru                                                      186
+     3   g_subaru                                                      190
+     4   r_subaru                                                      189
+     5   i_subaru                                                      218
+     6   z_subaru                                                      185
+     7      IB427                                                      737
+     8      IB464                                                      769
+     9      IB484                                                      873
+    10      IB505                                                      929
+    11      IB527                                                      992
+    12      IB574                                                     1281
+    13      IB624                                                     1223
+    14      IB679                                                     1526
+    15      IB709                                                     1220
+    16      IB738                                                     1249
+    17      IB767                                                      650
+    18      IB827                                                     1142
+    19      NB711                                                      769
+    20      NB816                                                      534
+    21      Koo-Kron U+ filter (Koo's thesis)                           13
+    22      Koo-Kron J+ filter (Koo's thesis)                           23
+    23      Koo-Kron F+ filter (Koo's thesis)                           25
+    24      Koo-Kron N+ filter (Koo's thesis)                           28
+    25      Koo-Kron R band (=127+RG610, data from Koo, Durham).        15
+    26      Couch and Newell (80) BJ (photographic) filter.             43
+    27      Couch and Newell (80) RF (photographic) filter.             23
+    28      Koo-Kron U+ filter (Bruzual's thesis)                       13
+    29      Koo-Kron J+ filter (Bruzual's thesis)                       25
+    30      Koo-Kron F+ filter (Bruzual's thesis)                       25
+    31      Koo-Kron N+ filter (Bruzual's thesis)                       23
+    32      Buser's U filter                                            24
+    33      Buser's B2 filter                                           40
+    34      Buser's B3 filter                                           40
+    35      Buser's V filter                                            54
+    36      Matthews and Sandage U filter                               13
+    37      Matthews and Sandage B filter                               22
+    38      Matthews and Sandage V filter                               25
+    39      Sandage and Smith B filter                                  43
+    40      Sandage and Smith V filter                                  38
+    41      Sandage and Smith R filter                                  43
+    42      ST-UV14 filter                                              33
+    43      ST-UV17 filter                                              42
+    44      ST-UV22 filter                                              53
+    45      ST-UV27 filter                                              64
+    46      OAO-UV1 filter                                              33
+    47      OAO-UV2 filter                                              47
+    48      OAO-UV3 filter                                              59
+    49      OAO-UV4 filter                                              68
+    50      OAO-UV5 filter                                              58
+    51      OAO-UV6 filter                                              70
+    52      Johnson's R filter                                          23
+    53      Johnson's I filter                                          26
+    54      Johnson's J filter                                          31
+    55      Johnson's K filter                                          17
+    56      Johnson's L filter                                          14
+    57      Butcher's r filter                                          51
+    58      Butcher's i filter                                          36
+    59      Butcher-Oemler R filter (10/75 1978, data from Koo, Durham  31
+    60      Butcher-Oemler R filter ( 5/76 1978, data from Koo, Durham  31
+    61      Bassel u filter                                             23
+    62      Bassel g filter                                             46
+    63      Bassel r filter                                             22
+    64      UKIRT H FILTER (Leiden, 1983)                               33
+    65      R. S. Ellis U(PE) filter                                    53
+    66      R. S. Ellis J filter                                       105
+    67      R. S. Ellis R filter                                        57
+    68      R. S. Ellis N filter                                       111
+    69      C. MacKay and P. Hall KG3 filter (Cambridge)               189
+    70      C. MacKay and P. Hall I filter (Cambridge)                 126
+    71      Gunn g filter + four-shooter Ti CCD + Palomar 200" atmosph  29
+    72      Gunn r filter + four-shooter Ti CCD + Palomar 200" atmosph  47
+    73      Gunn i filter + four-shooter Ti CCD + Palomar 200" atmosph  75
+    74      Gunn z filter + four-shooter Ti CCD + Palomar 200" atmosph  81
+    75      IR J filter + Palomar 200 IR detectors + atmosphere.55      21
+    76      IR H filter + Palomar 200 IR detectors + atmosphere.56      27
+    77      IR K filter + Palomar 200 IR detectors + atmosphere.57      33
+    78      IR K filter + Palomar 200 IR detectors + atmosphere.58      33
+    79      IR K filter + Palomar 200 IR detectors + atmosphere.59      33
+    80      IR K filter + Palomar 200 IR detectors + atmosphere.60      33
+    81      A. Tyson J filter                                           40
+    82      A. Tyson R filter                                           41
+    83      A. Tyson I filter                                           65
+    84      ANS 1550 Wide Filter (J. Koorneef)                           4
+    85      ANS 1800 Filter (J. Koorneef)                               18
+    86      ANS 2200 Filter (J. Koorneef)                                4
+    87      ANS 2500 Filter (J. Koorneef)                                4
+    88      ANS 3300 Filter (J. Koorneef)                               23
+    89      Approximate U band for Lilly and Cowie                      13
+    90      Approximate I band for Lilly and Cowie                      61
+    91      IRAS  12 micron, Neugebauer etal 1984,ApJL,278,L1           35
+    92      IRAS  25 micron, Neugebauer etal 1984,ApJL,278,L1           28
+    93      IRAS  60 micron, Neugebauer etal 1984,ApJL,278,L1           46
+    94      IRAS 100 micron, Neugebauer etal 1984,ApJL,278,L1           32
+    95      H filter Bessell and Brett PASP 100, 1134, 1988             20
+    96      J filter Bessell and Brett PASP 100, 1134, 1988             21
+    97      K filter Bessell and Brett PASP 100, 1134, 1988             25
+    98      L (3.5 microns) filter Bessell and Brett PASP 100, 1134, 1  21
+    99      L' (3.8 microns) filter Bessell and Brett PASP 100, 1134,   20
+   100      M filter Bessell and Brett PASP 100, 1134, 1988             19
+   101      KPNO narrow band IR filter Lambda eff = 11.1 microns FWHM= 200
+   102      KPNO narrow band IR filter Lambda eff = 8.4 microns FWHM=1 200
+   103      g Gunn (original)                                           17
+   104      r Gunn (original)                                           22
+   105      i Gunn (original)                                           27
+   106      z (original)                                                22
+   107      z + RCA                                                     22
+   108      CCD RCA ESO (JPP reference)                                 15
+   109      CCD RCA CAHA (Manual d'utilisateurs)                         8
+   110      B CAHA  (original manuel)                                   16
+   111      B Bessell                                                   24
+   112      V Bessell                                                   18
+   113      R Bessell                                                   22
+   114      I Bessell                                                   12
+   115      K Prime CFHT Redeye                                        110
+   116      CCD RCA2 CFHT (Manuel utilisateurs)                         24
+   117      Bj TYSON (orig. filter AT, private com.)                    22
+   118      CCD TEK#25  (ESO, Manuel Utilisateurs)                      17
+   119      CCD LORAL#34  (ESO, Manuel Utilisateurs)                    17
+   120      CCD SAIC#1    (CFH, Manuel Utilisateurs)                    15
+   121      CCD Lick2 CFHT   (CFH, Manuel Utilisateurs)                  8
+   122      B Bessel#639 ESO NTT SUSI                                  200
+   123      V Bessel#641 ESO NTT SUSI                                  200
+   124      R Bessel#642 ESO NTT SUSI                                  200
+   125      V#606 ESO NTT EMMI                                         200
+   126      B#4402  CFHT                                                23
+   127      R#4609  CFHT                                                18
+   128      B #1412  CFHT   FOCAM                                      148
+   129      B #1414  CFHT  B Tyson selon JB                             24
+   130      V #1504  CFHT                                              113
+   131      V #1510  CFHT  FOCAM                                       165
+   132      R #1611  CFHT                                               29
+   133      I #1808  CFHT   FOCAM                                       65
+   134      I #1809  CFHT  FOCAM                                        65
+   135      Thomson THX 31156  CCD#17  ESO                              17
+   136      Thomson THX 31156  CCD#18  ESO                              17
+   137      R#585 Bessel  ESO                                           30
+   138      K #6  UKIRT                                                 36
+   139      Passe-tout                                                  41
+   140      F555W + WFPC2 normalized                                    28
+   141      F814W + WFPC2 normalized                                   142
+   142      F300W + WFPC2 normalized                                   156
+   143      F450W + WFPC2 normalized                                   154
+   144      F606W + WFPC2 normalized                                   145
+   145      F702W + WFPC2 normalized                                    28
+   146      F675W + WFPC2 normalized                                    18
+   147      F336W + WFPC2 normalized                                    17
+   148      F160W + NICMOS normalized                                   16
+   149      J SOFI - NTT                                               111
+   150      H SOFI - NTT                                                69
+   151      Ks SOFI - NTT                                              115
+   152      KPNO IRIM 2.12 Filter                                       23
+   153      KPNO IRIM 2.14 Filter                                       26
+   154      KPNO IRIM 2.16 Filter                                       29
+   155      KPNO IRIM H Filter                                          43
+   156      KPNO IRIM J Filter                                          38
+   157      KPNO IRIM K Filter                                          62
+   158      KPNO IRIM K' Filter                                         46
+   159      VLT Test Camera Detector's Quantum Efficiency               19
+   160      B-band filter of the VLT Test Camera                        21
+   161      V-band filter of the VLT Test Camera                        24
+   162      R-band filter of the VLT Test Camera                        24
+   163      I-band filter of the VLT Test Camera                        23
+   164      SUSI2's CCDs Quantum Efficiency                              8
+   165      SUSI Bessel U #810                                         200
+   166      SUSI Bessel B #811                                         196
+   167      SUSI Bessel V #812                                         200
+   168      SUSI Bessel R #813                                         200
+   169      SUSI Bessel I #814                                         200
+   170      FORS Standard U (including instrument + CCD)                79
+   171      FORS Standard B (including instrument + CCD)                77
+   172      FORS Standard V (including instrument + CCD)                79
+   173      FORS Cousins R (including instrument + CCD)                 79
+   174      FORS Cousins I (including instrument + CCD)                 79
+   175      FORS Gunn G (including instrument + CCD)                    79
+   176      U#841 + CCD#57 WFI                                         101
+   177      B#842 + CCD#57 WFI                                         101
+   178      V#843 + CCD#57 WFI                                         126
+   179      Rc#844 + CCD#57 WFI                                        162
+   180      Ic#845 + CCD#57 WFI                                        159
+   181      Z#846 + CCD#57 WFI                                         179
+   182      Z EMMI NTT                                                 172
+   183      Filtre UV FOCA (Ref. A. Zappelli)                           75
+   184      SDSS u + CCD, [MT]  no atmosphere (Ref. F. Castander)       54
+   185      SDSS g + CCD, [MT]  no atmosphere (Ref. F. Castander)      105
+   186      SDSS r + CCD, [MT]  no atmosphere (Ref. F. Castander)      102
+   187      SDSS i + CCD, [MT]  no atmosphere (Ref. F. Castander)      116
+   188      SDSS z + CCD, [MT]  no atmosphere (Ref. F. Castander)      134
+   189      V Hall et al. 96 (qso photometry, EH)                        8
+   190      I75 Hall et al. 96  (qso photometry, EH)                     9
+   191      I86 Hall  et al. 96 (qso photometry, EH)                    10
+   192      Megacam u* filter (Ref. O. Boulade)                          4
+   193      Megacam b* filter (Ref. O. Boulade)                          4
+   194      CFH 12k   Mould B 7403                                      12
+   195      CFH 12k   Mould V 7503                                      13
+   196      CFH 12k   Mould R 7603                                      12
+   197      CFH 12k   Mould I 7802                                      19
+   198      CFH 12k   Z prime 7901                                      12
+   199      CFH 12k   High Sensitivity Response                         12
+   200      CFH 12k  Standard  Sensitivity Response                     12
+   201      U CTIO+ CTIO atmosphere                                     60
+   202      Infamous UH8K B filter + loral3 + MK atmosphere             61
+   203      UH8K V filter + loral 3 + atmosphere                        64
+   204      UH8K I filter + MK atmosphere                              126
+   205      KPNO B, from AAT Users Manual                               20
+   206      H+K filter                                                 150
+   207      U Wyin filter (filter + CCD reponse)                        13
+   208      B Wyin filter (filter + CCD reponse)                        24
+   209      J ISAAC (ESO web pages)                                    169
+   210      H ISAAC (ESO web pages)                                    167
+   211      Ks ISAAC (ESO web pages)                                   173
+   212      L ISAAC (ESO web pages)                                    132
+   213      M ISAAC (ESO web pages)                                    131
+   214      IRAS  12 micron, Neugebauer etal 1984,ApJL,278,L1           34
+   215      IRAS  25 micron, Neugebauer etal 1984,ApJL,278,L1           28
+   216      IRAS  60 micron, Neugebauer etal 1984,ApJL,278,L1           46
+   217      IRAS 100 micron, Neugebauer etal 1984,ApJL,278,L1           32
+   218   IRAC [3.8]                                                    200
+   219   IRAC [4.5]                                                    200
+   220   IRAC [5.8]                                                    200
+   221   IRAC [8.0]                                                    200
+   222   MIPS [24]                                                     128
+   223   MIPS [70]                                                     111
+   224   MIPS [100]                                                    340
+   225      ISO CAM LW1                                                 50
+   226      ISO CAM LW2                                                 49
+   227      ISO CAM LW3                                                 75
+   228      ISO CAM LW4                                                100
+   229      ISO CAM LW5                                                 98
+   230      ISO CAM LW6                                                 79
+   231      ISO CAM LW7                                                100
+   232      ISO CAM LW8                                                 50
+   233      ISO CAM LW9                                                 39
+   234      ISO CAM LW10                                                91
+   235      ISO PHOT C_100                                             300
+   236      ISO PHOT C_105                                             300
+   237      ISO PHOT C_120                                             300
+   238      ISO PHOT C_135                                             300
+   239      ISO PHOT C_160                                             300
+   240      ISO PHOT C_180                                             300
+   241      ISO PHOT C_200                                             300
+   242      ISO PHOT C_50                                              300
+   243      ISO PHOT C_60                                              300
+   244      ISO PHOT C_70                                              300
+   245      ISO PHOT C_90BU                                            300
+   246      ISO PHOT C_90                                              300
+   247      ISO PHOT C_FREE                                            300
+   248      ISO PHOT P_100                                             300
+   249      ISO PHOT P_10                                              300
+   250      ISO PHOT P_11_3                                            300
+   251      ISO PHOT P_11_5                                            300
+   252      ISO PHOT P_12_8                                            300
+   253      ISO PHOT P_16                                              300
+   254      ISO PHOT P_20                                              300
+   255      ISO PHOT P_25                                              300
+   256      ISO PHOT P_3_29                                            300
+   257      ISO PHOT P_3_6                                             300
+   258      ISO PHOT P_4_85                                            300
+   259      ISO PHOT P_60                                              300
+   260      ISO PHOT P_7_3                                             300
+   261      ISO PHOT P_7_7                                             300
+   262      INT WFC Harris B                                           301
+   263      INT WFC Harris V                                           251
+   264      INT WFC Harris R                                           401
+   265      INT WFC RGO I                                              251
+   266      INT WFC RGO Z                                              101
+   267      INT WFC [OIII]                                             301
+   268      INT WFC Halpha                                             251
+   269      INT WFC Stromgren U                                        201
+   270      INT WFC Stromgren V                                        151
+   271      INT WFC Stromgren B                                        151
+   272      INT WFC Stromgren Y                                        201
+   273      INT WFC RGO U                                              401
+   274      INT WFC HeII                                               201
+   275      INT WFC OII                                                276
+   276      INT WFC Ha                                                 126
+   277      INT WFC Kitt Peak B                                        321
+   278      INT WFC OIII                                               126
+   279      INT WFC SII                                                226
+   280      INT WFC SDSS r'                                            500
+   281      INT WFC SDSS i'                                            499
+   282      INT WFC SDSS g'                                            401
+   283  GAlex FUV                                                       14
+   284  GAlex FUV                                                       29
+   285       UKIRT NSF CAM J                                          2501
+   286       UKIRT NSF CAM H                                          1401
+   287       UKIRT NSF CAM K                                          1401
+   288   UKIRT NSF CAM K prim                                         1401
+   289   UKIRT NSF CAM L prim                                         2020
+   290   UKIRT NSF CAM M prim                                         1001
+   291  PACS 70                                                        533
+   292  PACS 100 micron                                                533
+   293  PACS 160 micron                                                344
+   294  SPIRE 250 MICRON                                               512
+   295  SPIRE 350 MICRON                                               511
+   296  SPIRE 500 MICRON                                               512

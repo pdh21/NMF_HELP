@@ -1,0 +1,5 @@
+dir = '~/idl/filters/data/'
+file_stem = 'filter_wfc'
+filt_file = dir+file_stem+'.res'
+
+filters=[1,2,3]

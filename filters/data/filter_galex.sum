@@ -1,0 +1,3 @@
+     #  #poi             Filter        wl_eff      surface    bandpass1  conv_ABLam/dLa   Zero m(1Jy)
+     1    14           GAlex FUV     1575.000      500.000      287.228    2.414   5.48  -6.49   6.49
+     2    29           GAlex FUV     2400.000     1250.000      721.110    1.826   3.33  -7.07   7.07

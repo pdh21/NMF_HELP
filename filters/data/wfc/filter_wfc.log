@@ -1,0 +1,23 @@
+    #   Filter                                                      # points
+--------------------------------------------------------------------------------
+     1      INT WFC Harris B                                           301
+     2      INT WFC Harris V                                           251
+     3      INT WFC Harris R                                           401
+     4      INT WFC RGO I                                              251
+     5      INT WFC RGO Z                                              101
+     6      INT WFC [OIII]                                             301
+     7      INT WFC Halpha                                             251
+     8      INT WFC Stromgren U                                        201
+     9      INT WFC Stromgren V                                        151
+    10      INT WFC Stromgren B                                        151
+    11      INT WFC Stromgren Y                                        201
+    12      INT WFC RGO U                                              401
+    13      INT WFC HeII                                               201
+    14      INT WFC OII                                                276
+    15      INT WFC Ha                                                 126
+    16      INT WFC Kitt Peak B                                        321
+    17      INT WFC OIII                                               126
+    18      INT WFC SII                                                226
+    19      INT WFC SDSS r'                                            500
+    20      INT WFC SDSS i'                                            499
+    21      INT WFC SDSS g'                                            401

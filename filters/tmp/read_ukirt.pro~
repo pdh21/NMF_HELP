@@ -1,0 +1,24 @@
+dir = '/users/sjo/idl/filters/'
+file = 'nsfcam_kpmk_trans.dat'
+
+
+readcol, dir+file, lam, tran
+
+
+lam = lam*1.e4
+
+tran = tran > 0
+
+order = sort(lam)
+
+lam = lam[order]
+tran = tran[order]
+
+get_lun, unit
+openw, unit, 'filter_ukirt.res'
+printf, unit, n_elements(lam), 'UKIRT NSF CAM K prime', format='(i9,2x,a20)'
+FOR i=0, n_elements(lam) -1 DO $
+printf,unit, i+1, lam[i], tran[i], $ 
+         format='(i9,2x,f10.2,2x,f10)'
+
+free_lun, unit

@@ -1,0 +1,6 @@
+PRO FILT_read_next, unit, npoint, name, wave, trans
+
+; reads a specfic filter transmission from a FILTER.RES file (used in 
+; e.g. HYPERZ)
+; N.B. the correct .log file must have been generated using
+; 

@@ -1,0 +1,73 @@
+
+;----------------------------------------------------------------------
+; reading in filter
+;----------------------------------------------------------------------
+
+dir = '~/idl/filters/data/'
+file_stem = 'filter_wfc'
+filt_file = dir+file_stem+'.res'
+
+
+FILT_read, file_stem, dir=dir, 1, npoint, name, filt_lam, filt_trans, silent=silent
+
+
+
+;----------------------------------------------------------------------
+; reading in sed
+;----------------------------------------------------------------------
+
+; Vega SED
+filt_read_vega, sed_lam, sed_flam
+
+; MRR SEDs
+mrr_dir = '/users/sjo/idl/mrr_z/'
+
+mrr_files = ['sedE',  'sedSab', 'sedSbc', 'sedScd', 'sedSdm', 'sedsb']
+
+type = ['E', 'Sab', 'Sbc', 'Scd', 'Sdm', 'Sdm']
+; CWW SEDs
+
+cww_dir = '/starpc07_1/starpc07_data/sjo/hyperz1.1/ZPHOT/templates/'
+cww_file = ['CWW_E_ext', '', 'CWW_Sbc_ext', 'CWW_Scd_ext', 'CWW_Im_ext', '']
+
+
+!p.multi = [0, 3, 2]
+FOR i=0, n_elements(mrr_files)-1 DO BEGIN 
+
+plot, z, z, xrange=[0, 1], yrange=[-1, 5], /nodata, xtitle='!17 z' , ytitle='!17 K-correction'
+   readcol, mrr_dir+mrr_files[i]+'.sed', sed_lam1, sed_flam1
+
+
+;----------------------------------------------------------------------
+; K-corrections
+;----------------------------------------------------------------------
+
+
+
+z = 10^(findgen(100)/150. )-1
+
+k_correction, sed_lam1, sed_flam1, filt_lam, filt_trans, z, k_z
+
+oplot, z, 2.5*alog10(k_z), lines=0, thick=5
+absmag, 15, z, absm, type=type[i], akcor=akcor
+
+oplot, z, akcor, lines=0, thick=3
+;oplot, z, akcor-alog10(1+z), lines=i
+
+
+  IF cww_file[i] NE '' THEN BEGIN 
+;
+     readcol, cww_dir+cww_file[i]+'.sed', sed_lam2, sed_flam2
+  
+k_correction, sed_lam2, sed_flam2, filt_lam, filt_trans, z, k_z
+oplot, z, 2.5*alog10(k_z), lines=0, thick=1
+
+
+   ;
+   ENDIF
+
+
+
+ENDFOR
+
+END

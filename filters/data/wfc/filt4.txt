@@ -1,0 +1,88 @@
+ING filter database; Wide Field Camera filters
+
+This page is automatically updated each time the FILTER ORGANIZER program is
+used to log filter movements. This page was last updated: 20 ago 01 16:40 .
+
+The filter throughput specifications (check out the links!) have been
+measured by Mariet Broxterman from Dec 1996 onwards. The filter scans run
+upto 9000A; the determined centroid wavelength of I and Z band filters are
+affected by this.
+
+ SerialType Central/Width   Name    DescriptionSize Thickness  Status      Last  Cosmetics  Focus offset
+                                                                         access                 info
+
+ 191   4    4298/1065     WFCHARB   Harris B   139  3.95      wfc filter 20000624ok         WFC 0.0mm
+                                                              box
+
+ 192   4    5425/975      WFCHARV   Harris V   139  3.98      wfc filter 20010210ok         WFC 0.0mm
+                                                              wheel
+
+ 193   4    6380/1520     WFCHARR   Harris R   139  3.96      wfc filter 20010210ok         WFC 0.0mm
+                                                              box                           (reference)
+
+ 194   4    8063*         WFCRGOI   RGO I      139  4.07      wfc filter 20000623damaged in WFC 0.0mm
+                                                              box                centre
+
+ 195   4    8763*         WFCRGOZ   RGO Z      139  4.09      wfc filter 18aug01 OK         WFC 0.0mm
+                                                              wheel
+
+ 196   4    5008/100      WFCO5008  [OIII]     139  9.96      wfc filter 20010210           WFC 1.3mm
+                                                              wheel
+
+ 197   4    6568/95       WFCH6568  Halpha     139  10.05     wfc filter 18aug01 ok         WFC 0.9mm
+                                                              box
+
+ 198   4    3480/330      WFCStrU   Stromgren U139  8.65      wfc filter 20000204none       WFC 1.70mm
+                                                              box
+
+ 199   4    4110/150      WFCStrV   Stromgren V139  9         wfc filter 20000204           WFC 1.55mm
+                                                              box
+
+ 200   4    4695/210      WFCStrB   Stromgren B139  8.9       wfc filter 20000204good       WFC 1.55mm
+                                                              box
+
+ 201   4    5505/240      WFCStrY   Stromgren Y139  9         wfc filter 20010210ok         WFC 1.55mm
+                                                              box
+                                                                                 has a
+ 204   4    3581/638      WFCRGOU   RGO U      139  8.59      wfc filter 20000803bubble in
+                                                              box
+                                                                                 the fluid
+
+ 206   4    4686/100      WFCHe4686 HeII       139  4.81      wfc filter 20000204
+                                                              box
+
+ 207   4    3727/100      WFCO3727  OII        139  6.94      wfc filter 20000204
+                                                              box
+                                                                                            Contact
+ 208   4    9190/50       WFC9190   Ha         139  10.07     Restricted 13Aug98            Alfonso
+                                    redshifted                use                           Aragon
+                                                                                            Salamanca
+                                                                                            Contact
+ 209   4    8160/50       WFC8160   Ha         139  10.05     Restricted 13Aug98            Alfonso
+                                    redshifted                use                           Aragon
+                                                                                            Salamanca
+
+ 210   4    4407/1022     WFCKPB    Kitt Peak B139            wfc filter 20000624
+                                                              box
+                                                                                            WFC 1.3mm
+ 211   4    5027/60       WFCO5027  OIII       139  10.6      Restricted 13Aug98            Contact Nial
+                                    redshift                  use
+                                                                                            Tanvir
+                                                                                 surface
+                                                                                 scratches
+ 212   4    6725/80       WFCS6725  SII        139  10.60     wfc filter 20010210but
+                                                              wheel
+                                                                                 optically
+                                                                                 ok
+
+ 214   4    6240/1347     WFCSloanR Sloan Gunn 139            wfc filter 20000803good
+                                    r'                        wheel
+
+ 215   4    7743/1519     WFCSloanI Sloan Gunn 139            wfc filter 20000803good
+                                    i'                        wheel
+
+ 220   4    4846/1285     WFCSloanG Sloan Gunn 139            wfc filter 20000803
+                                    g'                        box
+
+John Telting
+jht@ing.iac.es

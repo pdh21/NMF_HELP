@@ -1,0 +1,33 @@
+From s.j.warren@ic.ac.uk Wed Oct 17 10:43:39 2001
+Date: Tue, 16 Oct 2001 17:28:36 +0100 (BST)
+From: Stephen Warren <s.j.warren@ic.ac.uk>
+To: Seb Oliver <S.Oliver@susx.ac.uk>
+Subject: Re: UKIDSS
+
+Hi Seb
+I'll send down the .tex file when I have got it from Andy Lawrence.
+
+Here is some info on the filters:
+
+j_mk_a.band        0.945
+h_mk_a.band        1.386
+kp_mk_a.band       1.838
+
+AB mags are larger numerically than Vega mags by these numbers.
+More info on profiles at:
+www.ifa.hawaii.edu/~tokunaga/filterSpecs.html
+
+Steve
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Dr Steve Warren                    Email: sjw4@ic.ac.uk
+Astrophysics,                      Work: +44(0)207-5947554
+Blackett Labs,                     Fax:  +44(0)207-5947541
+Imperial College of Science Technology and Medicine,
+London SW7 2BW,                    
+UK  
+
+http://astro.ic.ac.uk/Research/extragal/index.html            
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+

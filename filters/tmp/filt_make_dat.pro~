@@ -1,0 +1,148 @@
+; this routine manufactures the HYPER-Z like information files
+; .dat and .log from a .res file
+PRO filt_make_dat, file_stem, dir=dir
+
+   IF NOT keyword_set(dir) THEN dir = '.' 
+
+
+   file = file_stem+'.res'
+
+
+   filt_read_vega, vega_lam, vega_flam
+;approximate conversion into ergs s-1 cm-2 A-1
+   vega_flam = vega_flam*2.0e-17
+
+
+
+   get_lun, unit
+   openr, unit,file
+   i = 0
+   get_lun, unit2
+
+   openw, unit2, file_stem+'.dat'
+
+   printf, unit2, '#', 'wl_eff', 'surface', 'bandpass1', 'conv_AB', format='(a6,2x,a11,2x,a11,2x,a11,2x,a7)'
+   printf, unit2, '___________________________________________________'
+   printf, unit2, ''
+   get_lun, unit4
+
+   openw, unit4, file_stem+'.log'
+   printf, unit4, '    #   ','Filter                                                      ', '# points'
+   printf, unit4, '--------------------------------------------------------------------------------'
+   get_lun, unit5
+   openw, unit5, file_stem+'_top.res'
+   get_lun, unit7
+   openw, unit7, file_stem+'_delt.res'
+
+   get_lun, unit6
+   openw, unit6, file_stem+'.sum'
+   printf, unit6, '#','#points', 'Filter ', 'wl_eff', 'surface', $
+    'bandpass1', 'conv_AB', 'Lam/dLam', 'Zero', 'm(1Jy)', $
+    format='(a6,2x,a4,a20,2x,a11,2x,a11,2x,a11,2x,a7,a7,a7,a7)'
+
+
+   i = 0
+   max_points=0
+
+
+   WHILE unit NE -1 DO BEGIN 
+      i = i+1
+      filt_read_next, unit, npoint, name, filt_lam, filt_trans
+      max_points=max_points>npoint
+
+
+      IF unit GT 0 THEN BEGIN
+         
+         filt_properties,filt_lam, filt_trans, $
+          eff_lam=eff_lam, surf=surf, band=band, /silent
+         IF strlen(name) GT 64 THEN name =  strmid(name, 0, 63)
+
+         printf,unit4, i, name, npoint, format='(i6,x,a,t71,i4)'
+         
+         filt_vega_conv_ab, filt_lam, filt_trans, convab, zero, $
+          vega_lam=vega_lam, vega_flam=vega_flam, surf=surf
+
+        
+         
+         printf,unit2, i, eff_lam, surf, band, convab,  $
+          format='(i6,2x,f11.3,2x,f11.3,2x,f11.3,2x,f7.3)'
+
+; top hat bit
+         start_lam = eff_lam-0.5*surf
+         END_lam=eff_lam+0.5*surf
+         top_trans = replicate(1., n_elements(filt_trans))
+         top_trans[where(filt_lam Le start_lam)] = 0.
+         top_trans[where(filt_lam ge end_lam)] = 0.
+         printf, unit5, n_elements(filt_lam), name, format='(i9,5x,a)'
+         FOR j=0, n_elements(filt_lam)-1 DO printf, unit5, $
+          j+1, filt_lam[j], top_trans[j], format='(i9,2x,f10.2,2x,f10)'
+
+; delta function bit
+         start_lam = eff_lam-0.5*surf/10.
+         END_lam=eff_lam+0.5*surf/10.
+         del_trans = replicate(1., n_elements(filt_trans))
+         del_trans[where(filt_lam Le start_lam)] = 0.
+         del_trans[where(filt_lam ge end_lam)] = 0.
+         printf, unit7, n_elements(filt_lam), name, format='(i9,5x,a)'
+         FOR j=0, n_elements(filt_lam)-1 DO printf, unit7, $
+          j+1, filt_lam[j], del_trans[j], format='(i9,2x,f10.2,2x,f10)'
+
+
+         printf, unit5, n_elements(filt_lam), name, format='(i9,5x,a)'
+         FOR j=0, n_elements(filt_lam)-1 DO printf, unit5, $
+          j+1, filt_lam[j], top_trans[j], format='(i9,2x,f10.2,2x,f10)'
+
+; seb's combined summary file
+         printf, unit6,  i, npoint, name, eff_lam, surf, band, convab, eff_lam/band, zero, flux2mag(1., zero), $
+          format='(i6,2x,i4,a20,2x,f11.3,2x,f11.3,2x,f11.3,2x,f7.3,f7.2,f7.2,f7.2)'
+
+
+
+
+      ENDIF
+   
+
+   ENDWHILE
+;   free_lun, unit
+   free_lun, unit2
+
+   free_lun, unit4
+   free_lun, unit5
+   free_lun, unit6
+   free_lun, unit7
+;----------------------------------------------------------------------
+; last section to make binary file same format as required by 
+; SPH pop. synthesis codes
+;----------------------------------------------------------------------
+   get_lun, unit
+   openr, unit,file
+   n_filts=i-1
+   res_array=fltarr(max_points,n_filts,2)
+   i = 0
+   npoints = lonarr(n_filts)
+
+   WHILE unit NE -1 DO BEGIN 
+
+      filt_read_next, unit, npoint, name, filt_lam, filt_trans
+      IF unit GT 0 THEN BEGIN
+         npoints(i) = npoint
+         res_array(0:npoint-1,i, 0)=filt_lam
+         res_array(0:npoint-1,i, 1)=filt_trans
+         i = i+1
+      ENDIF
+
+   ENDWHILE
+
+
+   get_lun, unit
+   openw, unit,file_stem+'_binary.res', /f77_unformatted
+   print, 'Writing out Binary file: dimensions (max points, nfilts):', max_points, n_filts
+   writeu,unit,long(n_filts),npoints,res_array
+   free_lun, unit
+
+   
+
+
+END
+
+

@@ -1,0 +1,3 @@
+; the conversion from Vega to AB magnitudes in fact depends 
+; slightly on the colour of the object within the pass-band
+; this should be corrected for probably about a 5% effect
